@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-01T06:09:06.665Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36" etag="3BM_VrV07XNDI3r8bpvZ" version="16.6.4" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-03-01T12:46:56.623Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36" etag="LsMeXGkFgCw9D1dHOhVx" version="16.6.4" type="github" pages="6">
   <diagram id="7_oKPZNJgev2ziM4Nc9u" name="회원 도메인 협력 관계">
     <mxGraphModel dx="2066" dy="1129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -73,6 +73,25 @@
         </mxCell>
         <mxCell id="VnDU42x0up31GAahDCqy-6" value="DbMemberRepository" style="html=1;" vertex="1" parent="VnDU42x0up31GAahDCqy-1">
           <mxGeometry x="570" y="580" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rVCw7MvsVakRPowKbNNX-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;strokeWidth=2;dashed=1;" edge="1" parent="VnDU42x0up31GAahDCqy-1" source="rVCw7MvsVakRPowKbNNX-0" target="VnDU42x0up31GAahDCqy-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rVCw7MvsVakRPowKbNNX-2" value="생성" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rVCw7MvsVakRPowKbNNX-1">
+          <mxGeometry x="-0.1333" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rVCw7MvsVakRPowKbNNX-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;endArrow=open;endFill=0;strokeWidth=2;" edge="1" parent="VnDU42x0up31GAahDCqy-1" source="rVCw7MvsVakRPowKbNNX-0" target="VnDU42x0up31GAahDCqy-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rVCw7MvsVakRPowKbNNX-4" value="생성" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rVCw7MvsVakRPowKbNNX-3">
+          <mxGeometry x="-0.1718" y="5" relative="1" as="geometry">
+            <mxPoint x="-27" y="5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rVCw7MvsVakRPowKbNNX-0" value="AppConfig" style="html=1;" vertex="1" parent="VnDU42x0up31GAahDCqy-1">
+          <mxGeometry x="90" y="720" width="110" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
