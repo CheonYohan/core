@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-01T06:05:36.872Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36" etag="swRz_p_yb4zggm006Kbk" version="16.6.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-03-01T06:09:06.665Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36" etag="3BM_VrV07XNDI3r8bpvZ" version="16.6.4" type="github" pages="6">
   <diagram id="7_oKPZNJgev2ziM4Nc9u" name="회원 도메인 협력 관계">
     <mxGraphModel dx="2066" dy="1129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -242,6 +242,35 @@
         </mxCell>
         <mxCell id="Apug4Qp4zbuEeovQeHYW-9" value="RateDiscountPolicy" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Apug4Qp4zbuEeovQeHYW-1">
           <mxGeometry x="450" y="490" width="150" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="uCiTTBoKxInRvO4UOukx" name="주문 도메인 객체 다이어그램">
+    <mxGraphModel dx="2066" dy="1129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="fM7dIrJZv6q6Yx-7KJBL-0" />
+        <mxCell id="fM7dIrJZv6q6Yx-7KJBL-1" parent="fM7dIrJZv6q6Yx-7KJBL-0" />
+        <mxCell id="fM7dIrJZv6q6Yx-7KJBL-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=open;endFill=0;strokeWidth=2;" edge="1" parent="fM7dIrJZv6q6Yx-7KJBL-1" source="fM7dIrJZv6q6Yx-7KJBL-2" target="fM7dIrJZv6q6Yx-7KJBL-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fM7dIrJZv6q6Yx-7KJBL-2" value="클라이언트" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="fM7dIrJZv6q6Yx-7KJBL-1">
+          <mxGeometry x="120" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fM7dIrJZv6q6Yx-7KJBL-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;strokeWidth=2;" edge="1" parent="fM7dIrJZv6q6Yx-7KJBL-1" source="fM7dIrJZv6q6Yx-7KJBL-3" target="fM7dIrJZv6q6Yx-7KJBL-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fM7dIrJZv6q6Yx-7KJBL-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;strokeWidth=2;" edge="1" parent="fM7dIrJZv6q6Yx-7KJBL-1" source="fM7dIrJZv6q6Yx-7KJBL-3" target="fM7dIrJZv6q6Yx-7KJBL-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fM7dIrJZv6q6Yx-7KJBL-3" value="주문 서비스 구현체" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="fM7dIrJZv6q6Yx-7KJBL-1">
+          <mxGeometry x="310" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fM7dIrJZv6q6Yx-7KJBL-4" value="메모리&lt;br&gt;회원 저장소" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="fM7dIrJZv6q6Yx-7KJBL-1">
+          <mxGeometry x="500" y="432" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fM7dIrJZv6q6Yx-7KJBL-5" value="정액&lt;br&gt;할인 정책" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="fM7dIrJZv6q6Yx-7KJBL-1">
+          <mxGeometry x="500" y="570" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
