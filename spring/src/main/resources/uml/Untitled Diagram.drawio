@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-01T12:46:56.623Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36" etag="LsMeXGkFgCw9D1dHOhVx" version="16.6.4" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-03-01T12:51:43.553Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36" etag="JNK8OPQJhM4blq_LBtVJ" version="16.6.4" type="github" pages="7">
   <diagram id="7_oKPZNJgev2ziM4Nc9u" name="회원 도메인 협력 관계">
     <mxGraphModel dx="2066" dy="1129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -115,6 +115,35 @@
         </mxCell>
         <mxCell id="XSkewnFS3Ba8Nvu0GNRo-4" value="메모리&lt;br&gt;회원 저장소" style="html=1;" vertex="1" parent="XSkewnFS3Ba8Nvu0GNRo-1">
           <mxGeometry x="580" y="550" width="110" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="7SvgsGGbyD4E0QngKoSp" name="회원 객체 인스턴스 다이어그램">
+    <mxGraphModel dx="2175" dy="1188" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="omWQPjhAokgZ_YBGgFHu-0" />
+        <mxCell id="omWQPjhAokgZ_YBGgFHu-1" parent="omWQPjhAokgZ_YBGgFHu-0" />
+        <mxCell id="omWQPjhAokgZ_YBGgFHu-2" value="memberServiceImpl" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="omWQPjhAokgZ_YBGgFHu-1">
+          <mxGeometry x="140" y="545" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="omWQPjhAokgZ_YBGgFHu-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;dashed=1;endArrow=open;endFill=0;strokeWidth=2;" edge="1" parent="omWQPjhAokgZ_YBGgFHu-1" source="omWQPjhAokgZ_YBGgFHu-3" target="omWQPjhAokgZ_YBGgFHu-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="omWQPjhAokgZ_YBGgFHu-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;endArrow=open;endFill=0;strokeWidth=2;" edge="1" parent="omWQPjhAokgZ_YBGgFHu-1" source="omWQPjhAokgZ_YBGgFHu-3" target="omWQPjhAokgZ_YBGgFHu-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="omWQPjhAokgZ_YBGgFHu-3" value="appConfig" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="omWQPjhAokgZ_YBGgFHu-1">
+          <mxGeometry x="140" y="800" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="omWQPjhAokgZ_YBGgFHu-4" value="memoryMemberRepository&lt;br&gt;x001" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="omWQPjhAokgZ_YBGgFHu-1">
+          <mxGeometry x="530" y="660" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="omWQPjhAokgZ_YBGgFHu-7" value="1. 생성" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="omWQPjhAokgZ_YBGgFHu-1">
+          <mxGeometry x="445" y="800" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="omWQPjhAokgZ_YBGgFHu-8" value="2. 생성 + 주입(memoryMemberRepository x001)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="omWQPjhAokgZ_YBGgFHu-1">
+          <mxGeometry x="100" y="690" width="270" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
