@@ -1,1 +1,91 @@
-<mxfile host="app.diagrams.net" modified="2022-03-01T04:51:02.828Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36" version="16.6.4" etag="9xtDtayuT8j1N2N5trss" type="github"><diagram id="7_oKPZNJgev2ziM4Nc9u">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-03-01T04:59:58.573Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36" etag="b4V2tFSoSfex2voQlsNn" version="16.6.4" type="github" pages="3">
+  <diagram id="7_oKPZNJgev2ziM4Nc9u" name="회원 도메인 협력 관계">
+    <mxGraphModel dx="2066" dy="1129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yjo8z-OWuKc4DOPkzoUL-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;" edge="1" parent="1" source="yjo8z-OWuKc4DOPkzoUL-1" target="yjo8z-OWuKc4DOPkzoUL-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yjo8z-OWuKc4DOPkzoUL-1" value="클라이언트" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yjo8z-OWuKc4DOPkzoUL-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;" edge="1" parent="1" source="yjo8z-OWuKc4DOPkzoUL-2" target="yjo8z-OWuKc4DOPkzoUL-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yjo8z-OWuKc4DOPkzoUL-2" value="회원 서비스&lt;br&gt;- 회원가입&lt;br&gt;- 회원조회" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="380" width="101" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yjo8z-OWuKc4DOPkzoUL-3" value="회원 저장소" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yjo8z-OWuKc4DOPkzoUL-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=block;endFill=0;dashed=1;" edge="1" parent="1" source="yjo8z-OWuKc4DOPkzoUL-4" target="yjo8z-OWuKc4DOPkzoUL-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yjo8z-OWuKc4DOPkzoUL-4" value="메모리&lt;br&gt;회원 저장소" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yjo8z-OWuKc4DOPkzoUL-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;dashed=1;endArrow=block;endFill=0;" edge="1" parent="1" source="yjo8z-OWuKc4DOPkzoUL-5" target="yjo8z-OWuKc4DOPkzoUL-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yjo8z-OWuKc4DOPkzoUL-5" value="DB&lt;br&gt;회원 저장소" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yjo8z-OWuKc4DOPkzoUL-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;endArrow=block;endFill=0;" edge="1" parent="1" source="yjo8z-OWuKc4DOPkzoUL-6" target="yjo8z-OWuKc4DOPkzoUL-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yjo8z-OWuKc4DOPkzoUL-6" value="외부 시스템 연동&lt;br&gt;회원 저장소" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="oJRHZe5y92LYOONhspUc" name="회원 클래스 다이어그램">
+    <mxGraphModel dx="2066" dy="1129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="VnDU42x0up31GAahDCqy-0" />
+        <mxCell id="VnDU42x0up31GAahDCqy-1" parent="VnDU42x0up31GAahDCqy-0" />
+        <mxCell id="VnDU42x0up31GAahDCqy-2" value="«interface»&lt;br&gt;&lt;b&gt;MemberService&lt;/b&gt;" style="html=1;" vertex="1" parent="VnDU42x0up31GAahDCqy-1">
+          <mxGeometry x="90" y="430" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VnDU42x0up31GAahDCqy-3" value="«interface»&lt;br&gt;&lt;b&gt;MemberRepository&lt;/b&gt;" style="html=1;" vertex="1" parent="VnDU42x0up31GAahDCqy-1">
+          <mxGeometry x="460" y="430" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VnDU42x0up31GAahDCqy-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;endArrow=block;endFill=0;" edge="1" parent="VnDU42x0up31GAahDCqy-1" source="VnDU42x0up31GAahDCqy-4" target="VnDU42x0up31GAahDCqy-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VnDU42x0up31GAahDCqy-10" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;jumpSize=15;strokeWidth=2;" edge="1" parent="VnDU42x0up31GAahDCqy-1" source="VnDU42x0up31GAahDCqy-4" target="VnDU42x0up31GAahDCqy-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VnDU42x0up31GAahDCqy-4" value="MemberServiceImpl" style="html=1;" vertex="1" parent="VnDU42x0up31GAahDCqy-1">
+          <mxGeometry x="90" y="580" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VnDU42x0up31GAahDCqy-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;endArrow=block;endFill=0;" edge="1" parent="VnDU42x0up31GAahDCqy-1" source="VnDU42x0up31GAahDCqy-5" target="VnDU42x0up31GAahDCqy-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VnDU42x0up31GAahDCqy-5" value="MemberMemoryRepository" style="html=1;" vertex="1" parent="VnDU42x0up31GAahDCqy-1">
+          <mxGeometry x="350" y="580" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VnDU42x0up31GAahDCqy-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;dashed=1;endArrow=block;endFill=0;" edge="1" parent="VnDU42x0up31GAahDCqy-1" source="VnDU42x0up31GAahDCqy-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VnDU42x0up31GAahDCqy-6" value="DbMemberRepository" style="html=1;" vertex="1" parent="VnDU42x0up31GAahDCqy-1">
+          <mxGeometry x="570" y="580" width="180" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="y2sm8NDxMecI4t-urv0F" name="회원 객체 다이어그램">
+    <mxGraphModel dx="2066" dy="1129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="XSkewnFS3Ba8Nvu0GNRo-0" />
+        <mxCell id="XSkewnFS3Ba8Nvu0GNRo-1" parent="XSkewnFS3Ba8Nvu0GNRo-0" />
+        <mxCell id="XSkewnFS3Ba8Nvu0GNRo-2" value="Object" style="html=1;" vertex="1" parent="XSkewnFS3Ba8Nvu0GNRo-1">
+          <mxGeometry x="360" y="550" width="110" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
